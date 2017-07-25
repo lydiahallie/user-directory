@@ -1,6 +1,6 @@
 const express = require('express')
 const mustacheExpress = require('mustache-express')
-const data = require('./data.js')
+const data = require('/users.js')
 
 const app = express()
 
