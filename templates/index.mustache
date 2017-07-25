@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/main-style.css">
+    <title></title>
+  </head>
+  <body>
+    <ul>
+      {{#users}}
+        <li class="users">
+          <img src="{{avatar}}" alt="">
+          <h2>
+            <a href="/users/{{id}}">{{name}}</a>
+          </h2>
+          {{#job}}
+            <p>{{job}} {{company}}</p>
+          {{/job}}
+          {{^job}}
+          <p class="available">Available for hire</p>
+          {{/job}}
+        </li>
+      {{/users}}>
+    </ul>
+  </body>
+</html>
