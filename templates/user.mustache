@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="/robot-styles.css">
+    <link rel="stylesheet" href="/styles.css">
     <title></title>
   </head>
   <body>
@@ -11,7 +11,7 @@
       <h1>{{name}}</h1>
       <p>{{#address.city}}{{address.city}},{{/address.city}} {{address.country}}  |
         {{#job}}{{job}}{{/job}} {{^job}}Available for hire {{/job}}</p>
-        <p>{{email}}  |  {{phone}}</p>
+      <p>{{email}}  |  {{phone}}</p>
     </div>
     <table>
       <tr>
@@ -19,6 +19,10 @@
         <th>Education</th>
         <td>{{university}}</td>
         {{/university}}
+        {{#skills}}
+        <th>Skills</th>
+        <td>{{skills}}</td>
+        {{/skills}}
       </tr>
     </table>
   </body>

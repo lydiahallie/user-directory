@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: arial;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.users {
+  list-style: none;
+  width: 20%;
+  border: 1px solid grey;
+  margin: 1em;
+}
+
+li a{
+  text-decoration: none;
+  color: #377FDA;
+  font-size: 25px;
+}
+
+li {
+  padding: 10px;
+}
+
+.available {
+  color: red;
+}
