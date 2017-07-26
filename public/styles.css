@@ -34,3 +34,22 @@ li {
 .available {
   color: red;
 }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 20em;
+}
+
+.robot-info {
+  display: flex;
+  flex-direction: row;
+}
+.robot-info-top {
+  display: flex;
+  flex-direction: column;
+}
+
+tr {
+  display: flex;
+}
